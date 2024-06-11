@@ -29,6 +29,11 @@ def play():
             print("Die gesuchte Zahl ist größer.")
     # bis hier ist die function play
 
+def save_score(score):
+    # speichert den HIGHSCORE in einer DATEI ab.
+    #TODO: implementieren Sie diese Funktion.
+    pass
+
 while True:  # Dauerschleife
     play()
 
