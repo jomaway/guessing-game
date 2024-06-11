@@ -6,7 +6,6 @@ import random
 
 def play():
     number = random.randint(1, 100)
-    print(f"DEBUG: Number ist {number}")
     user_wins = False
     score = 0
 
